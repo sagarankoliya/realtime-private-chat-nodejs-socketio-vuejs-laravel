@@ -144,7 +144,7 @@ Open http://127.0.0.1:8000 url in multipal browser
 
 **Login at least 2 user in different browser.**
 
-#### After login you can see all users right sidebar click any one and start chatting.
+#### After login you can see all users in right sidebar click anyone user and start private chatting.
 
 ### Thats it.
 
