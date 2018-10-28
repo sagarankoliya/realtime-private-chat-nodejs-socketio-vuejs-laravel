@@ -84,7 +84,7 @@ php artisan db:seed --class=UserTableSeeder
 
 Go to project directory using **Terminal / CMD**
 
-Open **public/nodejs** folder
+Open **nodejs** folder
 
 install node dependencies
 
@@ -95,7 +95,7 @@ npm install
 
 **_Step : 6_**
 
-In **public/nodejs** directory open **config/dev.json** file
+In **nodejs** directory open **config/dev.json** file
 
 change **database, user, password**
 
@@ -114,7 +114,7 @@ below database configuration is same as above.
 
 **Start Node JS Chat Server**
 
-Go to project directory using **Terminal / CMD** Open **public/nodejs** folder
+Go to project directory using **Terminal / CMD** Open **nodejs** folder
 
 ```
 export NODE_ENV=dev
