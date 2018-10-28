@@ -27,7 +27,6 @@ The following are required to function properly.
 
 ```
 git clone https://github.com/sagarankoliya/realtime-private-chat-nodejs-socketio-vuejs-laravel.git
-
 ```
 
 **_Step : 2_**
@@ -36,7 +35,6 @@ Go to project directory using **Terminal / CMD**
 
 ```
 composer install
-
 ```
 
 **_Step : 3_**
@@ -47,7 +45,6 @@ Generate laravel application key
 
 ```
 php artisan key:generate
-
 ```
 
 Also change **DB_DATABASE, DB_USERNAME, DB_PASSWORD** in .env
@@ -59,14 +56,12 @@ DB_PORT=3306
 DB_DATABASE=your db name
 DB_USERNAME=your db username
 DB_PASSWORD=your db password
-
 ```
 
 Also add below line in your .env
 
 ```
 WS_URL=http://localhost:3000/
-
 ```
 
 **_Step : 4_**
@@ -77,7 +72,6 @@ Run Migration & Seeder
 php artisan migrate
 
 php artisan db:seed --class=UserTableSeeder
-
 ```
 
 **_Step : 5_**
@@ -90,7 +84,6 @@ install node dependencies
 
 ```
 npm install
-
 ```
 
 **_Step : 6_**
@@ -107,7 +100,6 @@ below database configuration is same as above.
 "user": "your db username",
 "password": "your db password",
 "database": "your db name"
-
 ```
 
 **_Step : 7_**
@@ -119,7 +111,6 @@ Go to project directory using **Terminal / CMD** Open **nodejs** folder
 ```
 export NODE_ENV=dev
 npm start
-
 ```
 
 **Start Laravel Server**
@@ -128,7 +119,6 @@ Open Second **Terminal / CMD** Go to project directory
 
 ```
 php artisan serve
-
 ```
 
 Open http://127.0.0.1:8000 url in multipal browser
